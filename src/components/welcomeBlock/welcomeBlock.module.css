@@ -1,0 +1,61 @@
+.text {
+  margin-top: 40px;
+}
+
+.text a {
+  font-weight: bold;
+}
+
+.text p {
+  margin-bottom: 20px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.linkContainer {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 30px;
+  margin-right: 30px;
+}
+
+.linkContainer > * {
+  display: flex;
+  margin-right: 2.5rem;
+  text-decoration: none;
+  font-style: normal;
+  align-items: center;
+}
+
+.linkContainer > *:last-child {
+  margin-right: 0;
+}
+
+.linkContainer > * span {
+  margin-left: 0.625rem;
+}
+
+.linkContainer > * svg {
+  width: 1.5rem;
+}
+
+.btn {
+  height: 3rem;
+  line-height: 3rem;
+  padding: 0 2.2rem;
+  border-radius: 10px;
+  background: #FFDC00;
+  font-weight: bold;
+  font-style: normal;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.btn:hover {
+  box-shadow: none;
+}

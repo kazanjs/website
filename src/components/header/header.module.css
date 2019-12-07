@@ -1,0 +1,45 @@
+.header {
+  margin-bottom: 1.45rem;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.75rem;
+}
+
+.logo {
+  width: 5.5rem;
+}
+
+.logo:hover {
+  box-shadow: none;
+  background: none;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav > a {
+  margin-right: 1.6rem;
+}
+
+.nav > a:last-child {
+  margin-right: 0;
+}
+
+.nav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .nav .title {
+    display: none;
+  }
+
+  .nav .icon {
+    display: block;
+    width: 20px;
+    font-size: 0;
+    line-height: 1;
+  }
+}
