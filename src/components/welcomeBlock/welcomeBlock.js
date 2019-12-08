@@ -18,9 +18,9 @@ export const WelcomeBlock = () => {
         <p>Видео с мероприятий на <a target="blank" href="https://www.youtube.com/channel/UCX0DiupvdnHzKEyZsQS4C-A">Youtube канале.</a></p>
       </div>
     </section>
-    <section className={styles.row}>
+    <section className={styles.bottomRow}>
       <div>
-        <h3>Связаться с нами:</h3>
+        <h3 className={styles.linkHeader}>Связаться с нами:</h3>
         <div className={styles.linkContainer}>
           <a href="mailto:igor.z@gmail.com">
             <IconEmail />

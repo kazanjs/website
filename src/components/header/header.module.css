@@ -3,6 +3,7 @@
   display: flex;
   justify-content: space-between;
   font-size: 0.75rem;
+  align-items: flex-start;
 }
 
 .logo {
@@ -41,5 +42,9 @@
     width: 20px;
     font-size: 0;
     line-height: 1;
+  }
+
+  .header {
+    align-items: center;
   }
 }
