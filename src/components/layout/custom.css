@@ -1,0 +1,67 @@
+html {
+  font-size: 24px;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+}
+
+body, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  line-height: 1.5;
+}
+
+a {
+  font-style: italic;
+  text-decoration: underline;
+  font-weight: 500;
+  color: inherit;
+  background-color: transparent;
+  transition: all .1s ease 0s;
+  box-shadow: 0px 0px 0px 4px transparent;
+}
+
+a:hover {
+  background-color: #ffc000;
+  box-shadow: 0px 0px 0px 4px #ffc000;
+}
+
+h1 {
+  font-size: 2.6rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: inherit;
+}
+
+@media screen and (max-width: 1139px) {
+  html {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 999px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 899px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  html {
+    font-size: 12px;
+  }
+}
