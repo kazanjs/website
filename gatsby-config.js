@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `KazanJS`,
-    description: `Frontenders from Kazan, unite!`,
+    description: `JS developers from Kazan, unite!`,
     author: `@stb1rd`,
   },
   plugins: [
@@ -31,4 +31,4 @@ module.exports = {
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
   ],
-}
+};
