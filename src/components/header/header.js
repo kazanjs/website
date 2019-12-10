@@ -5,14 +5,14 @@ import { Logo } from '../../Icons/Logo';
 import { IconVk } from '../../Icons/IconVk';
 import { IconTwitter } from '../../Icons/IconTwitter';
 import { IconFacebook } from '../../Icons/IconFacebook';
-import { IconYoutube } from '../../Icons/IconYoutube';
+import { IconMeetup } from '../../Icons/IconMeetup';
 import styles from './header.module.css';
 
 const navigations = [
   { href: 'https://vk.com/kznjs', title: 'Vkontakte', icon: <IconVk /> },
   { href: 'https://www.facebook.com/groups/kazanjs/', title: 'Facebook', icon: <IconFacebook /> },
   { href: 'https://twitter.com/kazan_js', title: 'Twitter', icon: <IconTwitter /> },
-  { href: 'https://www.meetup.com/ru-RU/KazanJS/', title: 'Meetup', icon: <IconYoutube /> },
+  { href: 'https://www.meetup.com/ru-RU/KazanJS/', title: 'Meetup', icon: <IconMeetup /> },
 ];
 
 const Header = ({ siteTitle }) => (
