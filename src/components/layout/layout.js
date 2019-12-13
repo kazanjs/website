@@ -16,7 +16,6 @@ import './custom.css';
 const classes = {
   page: {
     padding: '2.5rem',
-    width: '100vw',
     minHeight: '100vh',
     display: 'flex',
     flexDirection: 'column',
